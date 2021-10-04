@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo {
+    font-family: fonts.$main-font;
+    color: colors.$main-color;
+    font-size: 28px;
+    font-weight: fonts.$thick-font;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+    top:-80px;
+    
+}
+
+li {
+    font-family: fonts.$main-font;
+    color: colors.$main-color;
+    font-size: 16px;
+    margin: 10px;
+    align-self: flex-start;
+    font-weight: fonts.$thick-font;
+}
