@@ -2,7 +2,10 @@
 @use 'colors';
 
 @import 'header';
-@import 'main1';
+@import 'main-1';
+@import 'main-2';
+@import 'container-1';
+
 
 body {
     font-family: fonts.$main-font;

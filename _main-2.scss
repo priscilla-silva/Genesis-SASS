@@ -1,0 +1,38 @@
+.main_2 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+
+}
+
+.main_2_1 {
+    display: flex;
+    justify-content: space-between;
+    font-weight: fonts.$thick-font;
+    width: 50%;
+    
+}
+
+.l1-l2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main_2_1_l1 {
+    // display: flex;
+    // flex-direction: column;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+
+}
+
+.main_2_1_l2 {
+    // display: flex;
+    // flex-direction: column;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 100px;
+    
+}
