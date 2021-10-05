@@ -1,4 +1,4 @@
-header {
+footer {
     display: flex;
     justify-content: space-between;
 }
@@ -10,29 +10,35 @@ header {
     font-weight: fonts.$thick-font;
 }
 
-// nav {
-//     display: flex;
-//     flex-direction: row;
-//     align-items: flex-start;
-//     justify-content: flex-end;
-// }
+nav {
+    display: flex;
+    align-items: flex-end;
+    
+}
 
 ul {
     list-style: none;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row;
-    justify-content: flex-end;
-    // position: relative;
-    // top:-80px;
-    
+    // display: flex;
+    // align-items: flex-end;
+
 }
 
 li {
     font-family: fonts.$main-font;
     color: colors.$main-color;
     font-size: 16px;
-    margin: 10px;
-    // align-self: flex-start;
     font-weight: fonts.$thick-font;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding: 10px;
+
+}
+
+i {
+    padding: 10px;
+   
 }
