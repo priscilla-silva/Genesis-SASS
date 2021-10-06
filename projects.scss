@@ -3,3 +3,17 @@
 
 @import 'header';
 @import 'footer';
+@import 'card_1';
+
+.page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+body {
+    font-family: fonts.$main-font;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
