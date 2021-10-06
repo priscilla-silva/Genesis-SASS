@@ -1,0 +1,19 @@
+@use 'fonts';
+@use 'colors';
+
+@import 'header';
+@import 'footer';
+
+
+.page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+body {
+    font-family: fonts.$main-font;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
