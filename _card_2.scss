@@ -1,0 +1,35 @@
+.card_2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+ 
+
+    &_info {
+        grid-column: 1 / span 3;
+        grid-row: 1 /  1;
+    
+    }
+
+    &_image-1 {
+        grid-column: 1 / 1;
+        grid-row: 2 / 2;
+        transform: scale(.8);
+    }
+
+    &_image-2 {
+        grid-column: 2 / 2;
+        grid-row: 2 /  2;
+        transform: scale(.8);
+    }
+
+    &_image-3 {
+        grid-column: 3 / 3;
+        grid-row: 2 /  2;
+        transform: scale(.8);
+    }
+
+    &_info-text {
+        line-height: 32px;
+    }
+
+}
