@@ -32,6 +32,7 @@ li {
     font-weight: fonts.$thick-font;
     display: flex;
     align-items: flex-end;
+
 }
 
 .icons {
@@ -45,4 +46,18 @@ li {
 i {
     padding: 10px;
    
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: colors.$highlight-color;
+    text-decoration: underline;
+}
+
+i:hover {
+    color: colors.$highlight-color;
+
 }

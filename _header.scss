@@ -36,4 +36,16 @@ li {
     margin: 10px;
     // align-self: flex-start;
     font-weight: fonts.$thick-font;
+
 }
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: colors.$highlight-color;
+    text-decoration: underline;
+
+}
+
